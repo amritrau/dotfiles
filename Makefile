@@ -1,2 +1,2 @@
 all:
-	rsync -a ./ ${HOME}/testdir --exclude=.git/*
+	rsync -a ./ ${HOME}/ --exclude=.git/*
